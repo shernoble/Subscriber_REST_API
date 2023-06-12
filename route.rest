@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscriber
+
+###
+
+GET http://localhost:3000/subscriber/648734e9bd106c3f90c9b661
+
+###
+
+POST http://localhost:3000/subscriber
+Content-Type: application/json
+
+{
+    "name":"kavya lolla",
+    "channel":"web dev simplified"
+}
+
+###
+DELETE http://localhost:3000/subscriber/648734e9bd106c3f90c9b661
